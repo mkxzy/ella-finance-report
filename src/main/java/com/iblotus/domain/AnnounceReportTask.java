@@ -17,9 +17,6 @@ public class AnnounceReportTask {
 
     private String title;
 
-    @DBRef
-    private AnnounceReport announceReport;
-
     public Integer getYear() {
         return year;
     }
